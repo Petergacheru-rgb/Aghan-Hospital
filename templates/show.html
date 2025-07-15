@@ -25,6 +25,7 @@
             <td>
                 <a href="/edit/{{ Appointment.id }}" class=" btn btn-outline-primary">Edit</a>
                 <a href="/delete/{{ Appointment.id }}" class=" btn btn-outline-danger">Delete</a>
+                <a href="{% url 'pay' %}" class=" btn btn-outline-success">Pay</a>
             </td>
         </tr>
     {% endfor %}
